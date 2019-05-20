@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="main/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<section class="info__header">		
+	<header class="d__header">
+		<div class="container">
+			<div class="header__text">
+				<h1 class="header__title">
+					Harold Finch
+				</h1>
+				<p class="header__text">
+					Your Total
+				</p>
+			</div>
+			<div class="header__price">
+				<p class="price__value">$88</p>
+				
+			</div>
+		</div>
+	</header>
+	<section class="main">
+		<div class="container">
+		<form action="" name="card_form" class="main__form">
+			<label><p class="card__number">Credit card number</p>
+				<input class="card__enter__number" type="text" id="card" name="card" maxlength="16">
+			</label>
+			<label for="month"><p class="date"> Expiration date</p></label>
+			<div class="expiration__date">
+				<select id="month" name="month" class="month__select">
+					<option value="month">Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November1">November</option>
+					<option value="December">December</option>
+				</select>
+				<select name="year" id="year" class="select__year">
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+				</select>
+			</div>
+			<div class="cvv__card">
+				<label for="cvv"><p class="cvv__card__text">CVV</p></label>
+				<div class="cvv__text">
+					<input type="text" name="cvv" id="cvv" class="cvv__select" maxlength="4">
+					<p class="cvv__example">3 or 4 digits - <a href="#">view example</a></p>
+				</div>
+			</div>
+			<div class="button__section">
+				<button class="pay__btn">Pay</button>
+				<button class="cancel__btn">Cancel order</button>
+			</div>
+		</form>
+		</div>
+	</section>		
+	</section>
+	
+</body>
+</html>
